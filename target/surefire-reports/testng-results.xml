@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T11:32:45 IST" name="test1" finished-at="2023-10-12T11:33:27 IST" duration-ms="42081">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T11:32:45 IST" name="POMframework" finished-at="2023-10-12T11:33:27 IST" duration-ms="42081">
+      <class name="com.Booking.qa.TestPages.TestsigninPage">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.Booking.qa.TestPages.TestsigninPage@13fd2ccd]" started-at="2023-10-12T11:33:11 IST" name="OpenApp" finished-at="2023-10-12T11:33:16 IST" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="testaccount()[pri:0, instance:com.Booking.qa.TestPages.TestsigninPage@13fd2ccd]" started-at="2023-10-12T11:33:16 IST" name="testaccount" finished-at="2023-10-12T11:33:19 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaccount -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.Booking.qa.TestPages.TestsigninPage@13fd2ccd]" started-at="2023-10-12T11:33:19 IST" name="CloseApp" finished-at="2023-10-12T11:33:19 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.Booking.qa.TestPages.TestsigninPage@13fd2ccd]" started-at="2023-10-12T11:33:19 IST" name="generateTestStatus" finished-at="2023-10-12T11:33:19 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Booking.qa.TestPages.TestsigninPage.testaccount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testaccount status=SUCCESS method=TestsigninPage.testaccount()[pri:0, instance:com.Booking.qa.TestPages.TestsigninPage@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+      </class> <!-- com.Booking.qa.TestPages.TestsigninPage -->
+      <class name="com.Booking.qa.TestPages.HomePageTest">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:44 IST" name="InitalizeExtentReport" finished-at="2023-10-12T11:32:45 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitalizeExtentReport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:45 IST" name="getnameMethod" finished-at="2023-10-12T11:32:45 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7bc6935c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnameMethod -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:45 IST" name="OpenApp" finished-at="2023-10-12T11:32:53 IST" duration-ms="7925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="testTitle()[pri:49, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:53 IST" name="testTitle" finished-at="2023-10-12T11:32:53 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:53 IST" name="CloseApp" finished-at="2023-10-12T11:32:54 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:54 IST" name="generateTestStatus" finished-at="2023-10-12T11:32:54 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Booking.qa.TestPages.HomePageTest.testTitle()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testTitle status=SUCCESS method=HomePageTest.testTitle()[pri:49, instance:com.Booking.qa.TestPages.HomePageTest@290222c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:54 IST" name="OpenApp" finished-at="2023-10-12T11:32:59 IST" duration-ms="5195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="logintest()[pri:50, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:59 IST" name="logintest" finished-at="2023-10-12T11:32:59 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:32:59 IST" name="CloseApp" finished-at="2023-10-12T11:33:00 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:33:00 IST" name="generateTestStatus" finished-at="2023-10-12T11:33:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Booking.qa.TestPages.HomePageTest.logintest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logintest status=SUCCESS method=HomePageTest.logintest()[pri:50, instance:com.Booking.qa.TestPages.HomePageTest@290222c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:33:00 IST" name="OpenApp" finished-at="2023-10-12T11:33:06 IST" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="testdetails()[pri:51, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:33:06 IST" name="testdetails" finished-at="2023-10-12T11:33:10 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdetails -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:33:10 IST" name="CloseApp" finished-at="2023-10-12T11:33:11 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:33:11 IST" name="generateTestStatus" finished-at="2023-10-12T11:33:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Booking.qa.TestPages.HomePageTest.testdetails() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testdetails status=SUCCESS method=HomePageTest.testdetails()[pri:51, instance:com.Booking.qa.TestPages.HomePageTest@290222c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.Booking.qa.TestPages.HomePageTest@290222c1]" started-at="2023-10-12T11:33:27 IST" name="generateReports" finished-at="2023-10-12T11:33:29 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- com.Booking.qa.TestPages.HomePageTest -->
+      <class name="com.Booking.qa.TestPages.TestSearchpage">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.Booking.qa.TestPages.TestSearchpage@b9b00e0]" started-at="2023-10-12T11:33:19 IST" name="OpenApp" finished-at="2023-10-12T11:33:24 IST" duration-ms="4975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="searchPages()[pri:0, instance:com.Booking.qa.TestPages.TestSearchpage@b9b00e0]" started-at="2023-10-12T11:33:24 IST" name="searchPages" finished-at="2023-10-12T11:33:27 IST" duration-ms="2636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPages -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.Booking.qa.TestPages.TestSearchpage@b9b00e0]" started-at="2023-10-12T11:33:27 IST" name="CloseApp" finished-at="2023-10-12T11:33:27 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.Booking.qa.TestPages.TestSearchpage@b9b00e0]" started-at="2023-10-12T11:33:27 IST" name="generateTestStatus" finished-at="2023-10-12T11:33:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Booking.qa.TestPages.TestSearchpage.searchPages() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=searchPages status=SUCCESS method=TestSearchpage.searchPages()[pri:0, instance:com.Booking.qa.TestPages.TestSearchpage@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+      </class> <!-- com.Booking.qa.TestPages.TestSearchpage -->
+    </test> <!-- POMframework -->
+  </suite> <!-- test1 -->
+</testng-results>

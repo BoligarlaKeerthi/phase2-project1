@@ -1,0 +1,13 @@
+<suite name="test1" verbose="1">
+
+  <listeners>
+    <listener class-name="com.Booking.qa.TestPages.ItestListenerClass"></listener>
+  </listeners> 
+<test name="POMframework">
+<classes>
+<class name="com.Booking.qa.TestPages.HomePageTest"></class>
+<class name="com.Booking.qa.TestPages.TestsigninPage"></class>
+<class name="com.Booking.qa.TestPages.TestSearchpage"></class>
+</classes>
+</test>
+</suite>
